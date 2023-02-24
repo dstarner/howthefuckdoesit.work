@@ -4,11 +4,13 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+const ORG = "dstarner";
+const REPO = "howthefuckdoesitwork";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "How the Fuck Does it Work?",
-  tagline:
-    "Discover how the world around us works, one crazy thing at a timegit ",
+  title: "How the F*ck Does it Work?",
+  tagline: "Discover how the world around us works, one crazy thing at a time",
   favicon: "img/favicon.ico",
 
   url: "https://howthefuckdoesit.work",
@@ -32,8 +34,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/dstarner/howthefuckdoesitwork/tree/main/",
+          editUrl: `https://github.com/${ORG}/${REPO}/tree/main/`,
         },
         blog: false,
         theme: {
@@ -47,62 +48,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "How the F*ck Does It Work?",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "How the F*ck Does It Work?",
+          src: "img/logo.png",
+          srcDark: "img/logo-negative.png",
         },
         items: [
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: `https://github.com/${ORG}/${REPO}`,
             label: "GitHub",
             position: "right",
           },
         ],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-        ],
-        copyright: `How the Fuck Does It Work? Built with Docusaurus.`,
-      },
+      footer: {},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
