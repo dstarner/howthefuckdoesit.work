@@ -5,7 +5,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const ORG = "dstarner";
-const REPO = "howthefuckdoesitwork";
+const REPO = "howthefuckdoesit.work";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
