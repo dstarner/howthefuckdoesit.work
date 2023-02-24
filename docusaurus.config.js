@@ -34,6 +34,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/",
           editUrl: `https://github.com/${ORG}/${REPO}/tree/main/`,
         },
         blog: false,
