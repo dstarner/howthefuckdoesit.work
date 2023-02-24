@@ -16,6 +16,10 @@ Well, search or dig through the sidebar for a term you want to learn about, and 
 
 I will either interview, research, or work with subject matter experts for requested topics and write up content as I see fit. I'd like to make this a team effort through people contributing Pull Requests, but then that just makes this an Open Source project, and we in tech know how poorly those are usually maintained.
 
+### Structure
+
+The content will be structured by category, and we will see how untidy it becomes, just like everything else in my life. I'm sure it'll be fine 😅 but we will readjust as necessary.
+
 ## Any Credits You Want to Give?
 
 Well, thanks [Docusaurus](https://docusaurus.io/) for making a pretty kickass documentation generator.
