@@ -88,6 +88,16 @@ export default function Home() {
                         Search
                       </a>
                     </div>
+                    <a
+                      className={clsx(
+                        styles["button"],
+                        styles["button-primary"],
+                        styles["button-block"]
+                      )}
+                      href="/about"
+                    >
+                      Dig In
+                    </a>
                   </div>
                 </div>
                 <div className={styles["hero-illustration"]}>
