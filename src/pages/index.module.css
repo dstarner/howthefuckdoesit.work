@@ -117,37 +117,6 @@
   line-height: 30px;
   letter-spacing: -0.1px;
 }
-.body-wrap h1,
-.body-wrap h2,
-.h1,
-.h2 {
-  margin-top: 48px;
-  margin-bottom: 16px;
-}
-.body-wrap h3,
-.h3 {
-  margin-top: 36px;
-  margin-bottom: 12px;
-}
-.body-wrap h4,
-.body-wrap h5,
-.body-wrap h6,
-.h4,
-.h5,
-.h6 {
-  margin-top: 24px;
-  margin-bottom: 4px;
-}
-.body-wrap p {
-  margin-top: 0;
-  margin-bottom: 24px;
-}
-.body-wrap dfn,
-.body-wrap cite,
-.body-wrap em,
-.body-wrap i {
-  font-style: italic;
-}
 .body-wrap blockquote {
   color: #9cacbc;
   font-style: italic;
@@ -172,77 +141,6 @@
   padding: 24px 0;
   margin: 0 0 24px;
 }
-.body-wrap pre,
-.body-wrap pre h1,
-.body-wrap pre h2,
-.body-wrap pre h3,
-.body-wrap pre h4,
-.body-wrap pre h5,
-.body-wrap pre h6,
-.body-wrap pre .h1,
-.body-wrap pre .h2,
-.body-wrap pre .h3,
-.body-wrap pre .h4,
-.body-wrap pre .h5,
-.body-wrap pre .h6 {
-  font-family: "Courier 10 Pitch", Courier, monospace;
-}
-.body-wrap pre,
-.body-wrap code,
-.body-wrap kbd,
-.body-wrap tt,
-.body-wrap var {
-  background: #222424;
-}
-.body-wrap pre {
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 1.6em;
-  max-width: 100%;
-  overflow: auto;
-  padding: 24px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-.body-wrap code,
-.body-wrap kbd,
-.body-wrap tt,
-.body-wrap var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 16px;
-  padding: 2px 4px;
-}
-.body-wrap abbr,
-.body-wrap acronym {
-  cursor: help;
-}
-.body-wrap mark,
-.body-wrap ins {
-  text-decoration: none;
-}
-.body-wrap small {
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: -0.1px;
-}
-.body-wrap b,
-.body-wrap strong {
-  font-weight: 700;
-}
-.body-wrap button,
-.body-wrap input,
-.body-wrap select,
-.body-wrap textarea,
-.body-wrap label {
-  font-size: 20px;
-  line-height: 32px;
-}
-
-/*
-
-
-*/
-
 .container,
 .container-sm {
   width: 100%;
